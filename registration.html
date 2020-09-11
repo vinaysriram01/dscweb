@@ -119,40 +119,128 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/clip.gif" alt="alternative">
+                        <img class="img-fluid" src="images/contact.png" alt="alternative">
                     </div> 
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     
                     <!-- Contact Form -->
                     <form id="contactForm" data-toggle="validator" data-focus="false">
+<!--                         <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Event Id</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+ -->     
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
+                            <label class="label-control" for="cname">Enter Name of Student</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
+                            <div class="form-group">
+                            <input type="email" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Email Id</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group">
+                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">College</label>
+                            <label class="label-control" for="cname">Phone Number</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group">
+                         <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">College Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Roll Number</label>
                             <div class="help-block with-errors"></div>
                         </div>
+                         <!--  <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Student / professor</label>
+                            <div class="help-block with-errors"></div>
+                        </div> -->
+                        <!--   <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">professor</label>
+                            <div class="help-block with-errors"></div>
+                        </div> -->
+<!--                          <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">college name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Phone number</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+ -->                    
                        <!-- <div class="form-group">
                             <textarea class="form-control-textarea" id="cmessage" required></textarea>
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>-->
+  <!--                       <div class="form-group">                                        
+                        <label  class="label-control" for="cname">State:</label> <br>
+                        <br>
+<select name="state" id="state">
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Telangana">Telangana</option>
+  <option value="   Arunachal Pradesh"> Arunachal Pradesh</option>
+  <option value="Kerala">Kerala</option>
+    <option value=" Maharashtra">Maharashtra</option>
+  <option value="Tamil Nadu"> Tamil Nadu</option>
+  <option value="Odisha">Odisha</option>
+</select>
+                            <div class="help-block with-errors"></div>
+
+</div> -->
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select state
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Andhra pradesh</a>
+    <a class="dropdown-item" href="#">Telangana</a>
+    <a class="dropdown-item" href="#">Odhisa</a>
+     <a class="dropdown-item" href="#">Tamilnadu</a>
+     <a class="dropdown-item" href="#">Kerala</a>
+
+
+  </div>
+</div>
+<br>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select District
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">East Godavari</a>
+    <a class="dropdown-item" href="#">West Godavari</a>
+    <a class="dropdown-item" href="#">Krishna</a>
+     <a class="dropdown-item" href="#">Srikakulam</a>
+  </div>
+</div>
+<br>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select  City
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Kakinada</a>
+    <a class="dropdown-item" href="#">Rajamundry</a>
+    <a class="dropdown-item" href="#">Tanuku</a>
+     <a class="dropdown-item" href="#">Eluru</a>
+  </div>
+</div>
+<br>
+<br>
+
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Registar!</button>
+                            <button type="submit" class="form-control-submit-button">Register for event</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
