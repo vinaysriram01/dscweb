@@ -2011,3 +2011,14 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+@media (min-width:420px) {
+	
+	/* Navigation */
+	.navbar-brand {
+		margin-right:0rem
+	}
+	h5, .h5 {
+    font-size: 0.6rem;
+}
+
+}
