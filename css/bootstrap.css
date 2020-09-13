@@ -382,9 +382,9 @@ h4, .h4 {
   font-size: 1.5rem;
 }
 
-/*h5, .h5 {
+h5, .h5 {
   font-size: 1.5rem;
-}*/
+}
 
 h6, .h6 {
   font-size: 1rem;
@@ -4246,9 +4246,15 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+    .navbar-brand {
+    margin-right:0rem
+  }
+  h5.text{
+    font-size:0.6rem;
+  }
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
