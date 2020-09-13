@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <!-- Website Title -->
-    <title>dscgmrit</title>
+    <title>DSC-GMRIT</title>
     
     <!-- Styles -->
     <!--<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">-->
@@ -43,6 +43,9 @@
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
+             <div class="bounce2"></div>
+            <div class="bounce3"></div>
+            <div class="bounce1"></div>
         </div>
     </div>
     <!-- end of preloader -->
@@ -54,7 +57,7 @@
 
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href=""><img src="images/newdsc.png" alt="alternative" style="width:70px"></a>
-        <h5 style="color:black;"> Developer Student Clubs ,GMRIT</h5>
+        <h5 style="color:black;"> Developer Student Clubs - GMRIT</h5>
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
@@ -65,27 +68,27 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header" style="color:black">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="dsc.html" style="color:black">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#aboutus" style="color:black">About us</a>
+                    <a class="nav-link page-scroll" href="dsc.html/#aboutus" style="color:black">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#about" style="color:black">Team</a>
+                    <a class="nav-link page-scroll" href="dsc.html/#about" style="color:black">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#events" style="color:black">Events</a>
+                    <a class="nav-link page-scroll" href="dsc.html/#events" style="color:black">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#ideaspot" style="color:black">Ideaspot</a>
+                    <a class="nav-link page-scroll" href="dsc.html/#ideaspot" style="color:black">Ideaspot</a>
                 </li>
-
+ <li class="nav-item">
+                    <a class="nav-link page-scroll" href="dsc.html/#community" style="color:black">Community</a>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact" style="color:black">Contact us</a>
+                    <a class="nav-link page-scroll" href="dsc.html/#contact" style="color:black">Contact us</a>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="" style="color:black">Blog</a>
-                </li>
+                
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
@@ -109,11 +112,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Register your seat !</h2>
+                    <h2  class="turquoise">Register your seat !</h2>
                     <ul class="list-unstyled li-space-lg">
                         <li class="address">Fill the form given below </li>
-                        <li><i class="fas fa-envelope"></i><a class="turquoise" href="">dsc.gmrit@gmail.com</a></li>
-                    </ul>
+<!--                         <li><i class="fas fa-envelope"></i><a class="turquoise" href="">dsc.gmrit@gmail.com</a></li>
+ -->                    </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -125,7 +128,7 @@
                 <div class="col-lg-6">
                     
                     <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form  data-toggle="validator" data-focus="false" method="POST"  action="registration.php">
 <!--                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Event Id</label>
@@ -133,31 +136,37 @@
                         </div>
  -->     
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" name="person_name" required>
                             <label class="label-control" for="cname">Enter Name of Student</label>
                             <div class="help-block with-errors"></div>
                         </div>
                             <div class="form-group">
-                            <input type="email" class="form-control-input" id="cname" required>
+                            <input type="email" class="form-control-input" id="cname" name="gmail" required>
                             <label class="label-control" for="cname">Email Id</label>
                             <div class="help-block with-errors"></div>
                         </div>
                          <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" name="phone_number" required>
                             <label class="label-control" for="cname">Phone Number</label>
                             <div class="help-block with-errors"></div>
                         </div>
                          <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" name="company" required>
                             <label class="label-control" for="cname">College Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
                          <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" name="jntuno" required>
                             <label class="label-control" for="cname">Roll Number</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                         <!--  <div class="form-group">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" name="student" required>
+                            <label class="label-control" for="cname">Student</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        
+                        <!--  <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Student / professor</label>
                             <div class="help-block with-errors"></div>
@@ -183,10 +192,10 @@
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>-->
-         <div class="form-group">                                        
-     <label  class="label-control" for="cname">State:</label> <br>
-<br>
-<select name="state" id="state"  class="newform form-control-input" >
+  <!--                       <div class="form-group">                                        
+                        <label  class="label-control" for="cname">State:</label> <br>
+                        <br>
+<select name="state" id="state">
   <option value="Andhra Pradesh">Andhra Pradesh</option>
   <option value="Telangana">Telangana</option>
   <option value="   Arunachal Pradesh"> Arunachal Pradesh</option>
@@ -197,76 +206,41 @@
 </select>
                             <div class="help-block with-errors"></div>
 
-</div> 
-            
-         <div class="form-group">                                        
-     <label  class="label-control" for="cname">District:</label> 
-                        <br>
-                        <br>
-<select name="district" id="district" class="newform form-control-input">
-  <option value="Andhra Pradesh">West godavari</option>
-  <option value="Telangana">East godavari</option>
-  <option value="   Arunachal Pradesh">Krishna</option>
-</select>
-  
-                            <div class="help-block with-errors"></div>
-</div> 
-
-       <div class="form-group">                                        
-     <label  class="label-control" for="cname">City :</label> 
-     <br>
-     <br>
-<select name="city" id="city"   class="newform form-control-input"> 
-  <option value="Andhra Pradesh">Tanuku</option>
-  <option value="Telangana">Kakinada</option>
-  <option value="   Arunachal Pradesh">Krishna</option>
-  </select>
-                            <div class="help-block with-errors"></div>
-
-</div> 
-<!-- <div class="dropdown">
-  <button class="btn .bg-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Select state
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item">Andhra pradesh</a>
-    <a class="dropdown-item" >Telangana</a>
-    <a class="dropdown-item" href="#">Odhisa</a>
-     <a class="dropdown-item" href="#">Tamilnadu</a>
-     <a class="dropdown-item" href="#">Kerala</a>
-
-
-  </div>
-</div>
-<br>
-<div class="dropdown">
-  <button class="btn .bg-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Select District
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" >East Godavari</a>
-    <a class="dropdown-item" >West Godavari</a>
-    <a class="dropdown-item" >Krishna</a>
-     <a class="dropdown-item">Srikakulam</a>
-  </div>
-</div>
-<br>
-<div class="dropdown">
-  <button class="btn .bg-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Select  City
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" >Kakinada</a>
-    <a class="dropdown-item">Rajamundry</a>
-    <a class="dropdown-item" >Tanuku</a>
-     <a class="dropdown-item">Eluru</a>
-  </div>
 </div> -->
+<div class="dropdown">
+    <select name="state" class="newform form-control-input">
+        <option value="" disabled selected>Choose state</option>
+        <option value="Apple">Kakinada</option>
+        <option value="Banana">Rajamundry</option>
+        <option value="Coconut">Tanuku</option>
+        <option value="Blueberry">Eluru</option>
+    </select>
+    
+</div>
 <br>
+<div class="dropdown">
+  <select name="district" class="newform form-control-input">>
+    <option value="" disabled selected>Choose district</option>
+    <option value="Apple">Kakinada</option>
+    <option value="Banana">Rajamundry</option>
+    <option value="Coconut">Tanuku</option>
+    <option value="Blueberry">Eluru</option>
+</select>
+</div>
+<br>
+<div class="dropdown">
+    <select name="person_city" class="newform form-control-input">>
+        <option value="" disabled selected>Choose city</option>
+        <option value="Apple">Kakinada</option>
+        <option value="Banana">Rajamundry</option>
+        <option value="Coconut">Tanuku</option>
+        <option value="Blueberry">Eluru</option>
+      </select></div>
+ <br>
 <br>
 
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Register for event</button>
+                       <button type="submit" class="btn btn-primary" href="submission.html" style="margin:auto">Register Now</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
