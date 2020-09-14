@@ -1350,7 +1350,7 @@ input[type='checkbox'] {
 .copyright .p-small {
 	padding-top: 1.375rem;
 	border-top: 1px solid #c4d8dc;
-	opacity: 1;
+	opacity: ;
 }
 
 
@@ -1583,7 +1583,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .nav-item .nav-link {
-		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+		padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 		color: #fff;
 		opacity: 0.8;
 	}
